@@ -1,12 +1,30 @@
+img {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .dunkel {
     filter: brightness(40%);
     }
 
-.weiche_kanten {
-    display: block; /* Für keinen Abstand unter dem Bild */
-    mask-image: linear-gradient(to bottom, black 98%, transparent 100%); /*für neue Versionen*/
-    -webkit-mask-image: linear-gradient(to bottom, black 98%, transparent 100%); /* Für alte Versionen von browser */
-
-    mask-image: linear-gradient(to top, black 98%, transparent 100%); /*für neue Versionen*/
-    -webkit-mask-image: linear-gradient(to top, black 98%, transparent 100%); /* Für alte Versionen von browser */
+.weiche_kanten{
+    mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
     }
+
+
+
+.open-sans-uniquifier {
+     font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: rgb(255, 255, 255);
+    font-size: 500%;
+}
