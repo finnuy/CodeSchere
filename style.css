@@ -9,8 +9,6 @@
 
     mask-image: linear-gradient(to right,transparent 0%, black 2%, black 98%, transparent 100%); /*für neue Versionen*/
     -webkit-mask-image: linear-gradient(to right, black 98%, transparent 100%); /*Für alte Versionen von browser */
-
-    
     mask-image: linear-gradient(to top, black 98%, transparent 100%); /*für neue Versionen*/
     -webkit-mask-image: linear-gradient(to top, black 98%, transparent 100%); /* Für alte Versionen von browser */
     }
