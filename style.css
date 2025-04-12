@@ -18,7 +18,7 @@ body{
 
 
 
-.open-sans-uniquifier {
+.überschriftart {
      font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -28,3 +28,30 @@ body{
     color: rgb(255, 255, 255);
     font-size: 500%;
 }
+
+nav ul {
+    list-style: none;
+    background-color: rgb(76, 158, 56);
+    height: auto;
+    border: thin solid;
+    text-align: center;
+    
+}
+
+nav li {
+    margin: 0.5em; 
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+nav a:focus,
+  nav a:hover,
+  nav a:active {    
+    text-decoration:underline;
+    color: rgb(0, 0, 0);
+  }
+  
