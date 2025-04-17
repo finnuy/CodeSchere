@@ -32,7 +32,11 @@ ul{
     color: rgb(255, 255, 255);
     font-size: 500%;
 }
-
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 nav ul {
     list-style: none;
     background-color: rgb(76, 158, 56);
