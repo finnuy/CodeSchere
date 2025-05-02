@@ -6,6 +6,7 @@ img {
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(76, 161, 70);
 }
 
 ul{
@@ -35,11 +36,11 @@ ul{
 nav {
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 2;
 }
 nav ul {
     list-style: none;
-    background-color: rgb(76, 158, 56);
+    background-color: rgb(76, 161, 70);
     height: auto;
     border: thin solid;
     text-align: center;
@@ -57,12 +58,12 @@ nav ul img {
 }
 
 nav li {
-    margin-right: 5em; 
+    margin-right: 3em; 
     display:inline-block;
 }
 
 nav a {
-    font-size: 1.5em;
+    font-size: 1em;
     text-decoration: none; 
     font-weight: bold;
     color: rgb(255, 255, 255);
