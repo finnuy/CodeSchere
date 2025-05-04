@@ -8,19 +8,63 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-        <img src="Bilder/Logo_without_background.png" alt="Logo_without_background" id="überschriftbildbar">
-        <p class="überschriftart" id="überschriftbar">SDG 3 - Gesundheit und Wohlbefinden (Schillergymn. Münster)</p>
+        <header>
+            <img src="Bilder/Logo_without_background.png" alt="Logo_without_background" id="überschriftbildbar">
+            <p class="überschriftart" id="überschriftbar">SDG 3 - Gesundheit und Wohlbefinden (Schillergymn. Münster)</p>
+        </header>
     </head>
     <body>
         <nav>
             <ul>
-                <li><a href="KG">Körperliche Gesundheit</a></li>
-                <li><a href="MG">Mentale	Gesundheit</a></li>
-                <li><a href="MVUG">Medizinische Versorgung und Gesundheitssysteme</a></li>
-                <li><a href="GUA">Gesundheitsförderung	und	Aufklärung</a></li>
-                <li><a href="GGUL">Globale	Gesundheitsprobleme	und	Lösungen</a></li>
+                <li class="dropdown">
+                    <span>Körperliche Gesundheit</span>
+                    <ul class="dropdown-content">
+                        <li><a href="KG_ernaehrung">Gesunde Ernährung und ausgewogene Diäten</a></li>
+                        <li><a href="KG_bewegung">Regelmäßige Bewegung und Sport</a></li>
+                        <li><a href="KG_praevention">Krankheitsprävention und Impfungen</a></li>
+                        <li><a href="KG_hygiene">Hygiene und Infektionsschutz</a></li>
+                        <li><a href="KG_schlaf">Schlaf und Erholung</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <span>Mentale Gesundheit</span>
+                    <ul class="dropdown-content">
+                        <li><a href="MG_stress">Stressbewältigung und Resilienz</a></li>
+                        <li><a href="MG_erkrankungen">Psychische Erkrankungen</a></li>
+                        <li><a href="MG_achtsamkeit">Achtsamkeit und Meditation</a></li>
+                        <li><a href="MG_sozial">Soziale Unterstützung und Gemeinschaft</a></li>
+                        <li><a href="MG_worklife">Work-Life-Balance</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <span>Medizinische Versorgung und Gesundheitssysteme</span>
+                    <ul class="dropdown-content">
+                        <li><a href="MVUG_zugang">Zugang zu Gesundheitsdiensten weltweit</a></li>
+                        <li><a href="MVUG_krankenhaeuser">Rolle von Krankenhäusern und medizinischem Personal</a></li>
+                        <li><a href="MVUG_pandemien">Globale Gesundheitskrisen (z. B. Pandemien)</a></li>
+                        <li><a href="MVUG_telemedizin">Telemedizin und digitale Gesundheitslösungen</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <span>Gesundheitsförderung und Aufklärung</span>
+                    <ul class="dropdown-content">
+                        <li><a href="GUA_bildung">Gesundheitsbildung in Schulen</a></li>
+                        <li><a href="GUA_kampagnen">Öffentlichkeitskampagnen für Gesundheit</a></li>
+                        <li><a href="GUA_vorsorge">Bedeutung von Vorsorgeuntersuchungen</a></li>
+                        <li><a href="GUA_gefahren">Gefahren von Rauchen, Alkohol und Drogen</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <span>Globale Gesundheitsprobleme und Lösungen</span>
+                    <ul class="dropdown-content">
+                        <li><a href="GGUL_epidemien">Bekämpfung von Epidemien und Pandemien</a></li>
+                        <li><a href="GGUL_antibiotika">Antibiotikaresistenzen und neue Therapien</a></li>
+                        <li><a href="GGUL_wasser">Wasser- und Sanitärversorgung als Gesundheitsfaktor</a></li>
+                        <li><a href="GGUL_ungleichheiten">Ungleichheiten in der Gesundheitsversorgung</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-        <img src="Bilder/hintergrund1.png" alt="hintergrund1">
+        <img src="Bilder/hintergrund1.png" alt="hintergrund1" class="dunkel weiche_kanten" width="100%">
     </body>
 </html>
