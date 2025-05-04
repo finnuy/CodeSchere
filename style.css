@@ -8,11 +8,6 @@ body{
     padding: 0;
     background-color: rgb(76, 161, 70);
 }
-
-ul{
-    margin: 0;
-    padding:0;
-}
 .dunkel {
     filter: brightness(40%);
     }
@@ -30,37 +25,66 @@ ul{
     color: rgb(0, 0, 0);
 }
 
-nav {
-    position: sticky;
-    top:0;
-    z-index: 2;
-}
 nav ul {
     list-style: none;
     background-color: rgb(54, 112, 50);
     height: auto;
     border: thin solid;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* Gleichmäßige Verteilung der Oberthemen */
+    padding: 0;
+    margin: 0;
 }
 
-nav li { 
-    display:inline-block;
+nav li {
+    display: inline-block;
+    position: relative; /* Wichtig für die absolute Positionierung des Dropdowns */
 }
 
-nav a {
-    font-size: 1.2em;
-    text-decoration: none; 
+nav li span { /* Stil für die Oberthemen (Trigger) */
+    display: block;
+    padding: 1em 1.5em;
+    text-decoration: none;
     font-weight: bold;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
-nav a:focus,
-  nav a:hover,
-  nav a:active {    
+nav li span:focus,
+nav li span:hover,
+nav li span:active {
     color: rgb(172, 189, 159);
-  }
+}
 
+.dropdown-content {
+    display: none; /* Standardmäßig versteckt */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 250px; /* Etwas breiter für längere Unterthemen */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content li a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
 #überschriftbar {
     margin: 0%;
     margin-right: 3em;
