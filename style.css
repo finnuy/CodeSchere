@@ -38,10 +38,10 @@ nav ul {
 
 nav li {
     display: inline-block;
-    position: relative; /* Wichtig für die absolute Positionierung des Dropdowns */
+    position: relative;
 }
 
-nav li span { /* Stil für die Oberthemen (Trigger) */
+nav li span { 
     display: block;
     padding: 1em 1.5em;
     text-decoration: none;
@@ -62,7 +62,7 @@ nav li span:active {
     top: 100%;
     left: 0;
     background-color: #f9f9f9;
-    min-width: 250px; /* Etwas breiter für längere Unterthemen */
+    min-width: 250px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     list-style: none;
