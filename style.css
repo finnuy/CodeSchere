@@ -13,7 +13,7 @@ body{
     }
 
 .weiche_kanten{
-    mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 98%, transparent 100%);
     }
 
 
@@ -24,14 +24,19 @@ body{
     font-style: normal;
     color: rgb(0, 0, 0);
 }
-
+nav {
+    position:fixed;
+    top: 0em;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(54, 112, 50, 0.9);
+}
 nav ul {
     list-style: none;
-    background-color: rgb(54, 112, 50);
     height: auto;
-    border: thin solid;
+    border: none;
     display: flex;
-    justify-content: space-around; /* Gleichmäßige Verteilung der Oberthemen */
+    justify-content: space-around; 
     padding: 0;
     margin: 0;
 }
@@ -48,39 +53,38 @@ nav li span {
     font-weight: bold;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    justify-items:center
 }
 
 nav li span:focus,
 nav li span:hover,
 nav li span:active {
-    color: rgb(172, 189, 159);
+    color: rgb(159, 189, 165);
 }
 
 .dropdown-content {
-    display: none; /* Standardmäßig versteckt */
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #f9f9f9;
-    min-width: 250px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: transparent;
     z-index: 1;
     list-style: none;
     padding: 0;
     margin: 0;
+    border: none;
 }
 
 .dropdown-content li a {
-    color: black;
+    color: rgb(193, 221, 198);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
 }
 
 .dropdown-content li a:hover {
-    background-color: #ddd;
+    font-size: larger;
 }
 
 .show {
@@ -89,26 +93,21 @@ nav li span:active {
 
 header {
     display: flex;
-    justify-items: center;
     align-items: center;
-    height: auto
+    height: auto;
 }
 header p {
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     margin-right: 1em;
-    margin-left: 1em;
-    padding: 0%;
-    width: 90%;
-    display: inline-block;
-    
+    font-size: 2em;
+    text-align: center;
+    flex-grow: 1;
 }
 
 header img {
     height: 3em; 
-    width: auto; 
-    margin: 0%;
-    margin-right: 2em; 
-    margin-left: 2em;
-    display: flex;
-    justify-items: left;
+    width: auto;
+    margin-right: 1em;
+    margin-left: 1em;
 }
