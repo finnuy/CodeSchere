@@ -89,7 +89,7 @@ nav li span:active {
     margin: 0%;
     margin-right: 3em;
     padding: 0%;
-    font-size: 2.3em;
+    width: 90%;
     display: inline-block;
     position:absolute;
     right:0;
@@ -99,6 +99,7 @@ nav li span:active {
     height: 3em; 
     width: auto; 
     margin: 0%;
+    position: relative;
     margin-right: 2em; 
     margin-left: 2em;
 }
