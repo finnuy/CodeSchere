@@ -42,12 +42,13 @@ nav li {
 }
 
 nav li span { 
-    display: block;
+    display: inline-block;
     padding: 1em 1.5em;
     text-decoration: none;
     font-weight: bold;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    justify-items:center
 }
 
 nav li span:focus,
@@ -85,21 +86,29 @@ nav li span:active {
 .show {
     display: block;
 }
-#überschriftbar {
+
+header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: auto
+}
+header p {
     margin: 0%;
-    margin-right: 3em;
+    margin-right: 1em;
+    margin-left: 1em;
     padding: 0%;
     width: 90%;
     display: inline-block;
-    position:absolute;
-    right:0;
+    
 }
 
-#überschriftbildbar {
+header img {
     height: 3em; 
     width: auto; 
     margin: 0%;
-    position: relative;
     margin-right: 2em; 
     margin-left: 2em;
+    display: flex;
+    justify-items: left;
 }
