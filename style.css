@@ -15,7 +15,8 @@ body
 
 .weiche_kanten{
     mask-image: linear-gradient(to bottom, black 98%, transparent 100%);
-    }
+    mask-image: linear-gradient(to right, transparent 0%, black 2%, black 98%, transparent 100%);
+}
 
 
 
@@ -30,7 +31,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 100;
-    background-color: rgba(54, 112, 50, 0.9);
+    background-color: rgba(76, 161, 70, 0.5);
 }
 nav ul {
     list-style: none;
