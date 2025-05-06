@@ -3,7 +3,8 @@ img {
     margin: 0;
 }
 
-body{
+body
+{
     margin: 0;
     padding: 0;
     background-color: rgb(76, 161, 70);
@@ -25,8 +26,8 @@ body{
     color: rgb(0, 0, 0);
 }
 nav {
-    position:fixed;
-    top: 0em;
+    position:sticky;
+    top: 0;
     width: 100%;
     z-index: 100;
     background-color: rgba(54, 112, 50, 0.9);
@@ -95,6 +96,7 @@ header {
     display: flex;
     align-items: center;
     height: auto;
+    z-index: 1000;
 }
 header p {
     padding: 0;
