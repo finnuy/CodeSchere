@@ -14,9 +14,11 @@ body
     }
 
 .weiche_kanten{
-    mask-image: linear-gradient(to bottom, black 98%, transparent 100%);
-    mask-image: linear-gradient(to right, transparent 0%, black 2%, black 98%, transparent 100%);
-}
+    mask-image: linear-gradient(to bottom, black 98%, transparent 100%),
+                linear-gradient(to right, transparent 0%, black 2%, black 98%, transparent 100%);
+    mask-mode:alpha, alpha;
+    mask-composite: intersect
+            }
 
 
 
