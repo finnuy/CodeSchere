@@ -9,18 +9,17 @@ body
     padding: 0;
     background-color: rgb(76, 161, 70);
 }
+
 .dunkel {
     filter: brightness(40%);
-    }
+}
 
 .weiche_kanten{
-    mask-image: linear-gradient(to bottom, black 98%, transparent 100%),
-                linear-gradient(to right, transparent 0%, black 2%, black 98%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 98%, transparent 100%);
+                /*linear-gradient(to right, transparent 0%, black 2%, black 98%, transparent 100%);
     mask-mode:alpha, alpha;
-    mask-composite: intersect
-            }
-
-
+    mask-composite: intersect */
+}
 
 .überschriftart {
     font-family: "Alfa Slab One", serif;
@@ -28,6 +27,7 @@ body
     font-style: normal;
     color: rgb(0, 0, 0);
 }
+
 nav {
     position:sticky;
     top: 0;
@@ -35,6 +35,7 @@ nav {
     z-index: 100;
     background-color: rgba(76, 161, 70, 0.5);
 }
+
 nav ul {
     list-style: none;
     height: auto;
@@ -115,4 +116,17 @@ header img {
     width: auto;
     margin-right: 1em;
     margin-left: 1em;
+}
+
+#fettertext{
+    font-weight: bolder;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 3em;
+}
+
+#kleinertext{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 2.2em;
 }
