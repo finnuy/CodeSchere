@@ -123,12 +123,16 @@ header img {
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
     font-size: 3em;
-    margin-right: 50%;
+    margin-left: 5%;
+    position: absolute;
+    top:25%
 }
 
 #kleinertext{
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
     font-size: 2.2em;
-    margin-right: 50%;
+    margin-left:5%;
+    position: absolute;
+    top:50%
 }
