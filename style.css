@@ -7,7 +7,7 @@ body
 {
     margin: 0;
     padding: 0;
-    background-color: rgb(76, 161, 70);
+    background-color: rgb(225, 248, 223);
 }
 
 .dunkel {
@@ -16,9 +16,6 @@ body
 
 .weiche_kanten{
     mask-image: linear-gradient(to bottom, black 98%, transparent 100%);
-                /*linear-gradient(to right, transparent 0%, black 2%, black 98%, transparent 100%);
-    mask-mode:alpha, alpha;
-    mask-composite: intersect */
 }
 
 .überschriftart {
@@ -31,9 +28,8 @@ body
 
 .kreideschrift {
     font-family: "Winky Rough", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
   }
 
 nav {
@@ -120,6 +116,7 @@ header {
     display: flex;
     align-items: center;
     z-index: 1000;
+    background-color: rgba(76, 161, 70, 1);
 }
 header p {
     padding: 0;
