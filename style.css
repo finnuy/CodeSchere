@@ -52,11 +52,6 @@ nav ul {
     margin: 0;
 }
 
-nav li {
-    display: inline-block;
-    position: relative;
-}
-
 nav li span { 
     display: inline-block;
     text-align: center;
@@ -162,6 +157,7 @@ header img {
     background-color: rgba(76, 161, 70, 1);
     flex-direction: column;
     border-radius: 15px;
+    height: 25em;
 }
 
 .aktuelles p{
@@ -181,5 +177,6 @@ header img {
 {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
+    margin: 2em;
 }
