@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 img {
     padding: 0;
     margin: 0;
@@ -129,26 +133,6 @@ header img {
     margin-left: 1em;
     cursor: pointer;
 }
-
-#fettertext{
-    display:flex;
-    align-items: center;
-    font-weight: bolder;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 3em;
-    margin-left: 5%;
-}
-
-#kleinertext{
-    display:flex;
-    align-items: center;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 2.2em;
-    margin-left:5%;
-}
-
 .aktuelles {
     display: flex;
     margin: 1em;
@@ -158,10 +142,12 @@ header img {
     flex-direction: column;
     border-radius: 15px;
     height: 25em;
+    transition: transform .2s;
 }
 
 .aktuelles p{
     text-align: center;
+    font-size: 1.2em;
 }
 
 .aktuelles img{
@@ -179,4 +165,21 @@ header img {
     flex-wrap: wrap;
     justify-content: center;
     margin: 2em;
+}
+
+section a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.aktuelles:hover {
+    transform: scale(1.1);
+}
+
+#AktuÜberschrift{
+    display: flex;
+    margin: 0;
+    font-size: 15em;
+    justify-content: space-around;
+    text-align: center;
 }
