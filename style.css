@@ -154,31 +154,30 @@ header img {
     margin-left:5%;
 }
 
-.platzhalter {
-    display: inline-block;
-    width: 100%;
-    height: 100em
-}
-
-#aktuelles{
-    display: flex;
-    align-content: center;
-    max-width: 100%;
+section{
+    display:grid;
 }
 
 .aktuelles {
-    margin: 0;
-    padding:0;
+    display: flex;
+    margin: 2em;
+    padding:0.5em;
     width: 20em;
+    background-color: rgba(76, 161, 70, 1);
+    flex-direction: column;
+    border-radius: 15px;
 }
 
 .aktuelles p{
+    text-align: center;
 }
 
 .aktuelles img{
-    height: 5em;
+    height: auto;
+    border-radius: 15px;
 }
 
 .aktuelles h1{
+    text-align: center;
 }
-
+ 
