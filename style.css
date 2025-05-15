@@ -101,7 +101,7 @@ nav li span:active {
 }
 
 .dropdown-content li a:hover {
-    font-size: larger;
+    text-decoration: underline;
 }
 
 .überschriftart li a:hover {

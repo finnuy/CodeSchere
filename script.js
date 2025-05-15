@@ -3,7 +3,6 @@ const dropdownContents = document.querySelectorAll('.dropdown-content');
 
 dropdownTriggers.forEach((trigger, index) => {
     trigger.addEventListener('click', function(event) {
-        event.preventDefault(); 
         dropdownContents.forEach((content, i) => {
             if (i !== index && content.classList.contains('show')) {
                 content.classList.remove('show');
