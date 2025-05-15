@@ -184,44 +184,10 @@ section a {
     justify-content: space-around;
     text-align: center;
 }
-
-@media only screen and (max-width: 400px) {
-    #AktuÜberschrift{
-        font-size: 2em;
-    }
+#displaytext{
+    text-align: center;
 }
 
-@media only screen and (min-width: 400px) {
-    #AktuÜberschrift{
-        font-size: 4em;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    #AktuÜberschrift{
-        font-size: 6em;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    #AktuÜberschrift{
-        font-size: 7em;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    #AktuÜberschrift{
-        font-size: 10em;
-}
-
-@media only screen and (min-width: 1200px) {
-    #AktuÜberschrift{
-        font-size: 12em;
-    }
-    nav li span{
-        font-size: 2em;
-    }
-}
 #fettertext{
     font-weight: bolder;
     text-align: center;
@@ -240,5 +206,146 @@ section a {
     margin-right: 50%;
     margin-left:5%;
     position: absolute;
-    top:50%
+    top:50%;
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 400px) {
+    #AktuÜberschrift{
+        font-size: 2em;
+    }
+    header p {
+    font-size: 1.3em;
+    }
+    .dropdown-content li a {
+        font-size: 1em;
+    }
+    nav li span{
+        font-size: 1em;
+    }
+    #fettertext{
+        font-size: 2em;
+        top: 23%;
+    }
+    #kleinertext{
+        font-size: 1.1em;
+        top: 40%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    #AktuÜberschrift{
+        font-size: 4em;
+    }
+    header p {
+    font-size: 1.5em;
+    }
+    .dropdown-content li a {
+        font-size: 1em;
+    }
+    nav li span{
+        font-size: 1em;
+    }
+    #fettertext{
+        font-size: 2.2em;
+        top: 17%;
+    }
+    #kleinertext{
+        font-size: 1.4em;
+        top: 34%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #AktuÜberschrift{
+        font-size: 6em;
+    }
+    .dropdown-content li a {
+        font-size: 1.2em;
+    }
+    nav li span{
+        font-size: 1.2em;
+    }
+    header p {
+    font-size: 2em;
+    }
+    #fettertext{
+        font-size: 3em;
+        top: 18%;
+    }
+    #kleinertext{
+        font-size: 1.5em;
+        top: 43%;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #AktuÜberschrift{
+        font-size: 7em;
+    }
+    header p {
+    font-size: 2.5em;
+    }
+    .dropdown-content li a {
+        font-size: 1.2em;
+    }
+    nav li span{
+        font-size: 1.2em;
+    }
+    #fettertext{
+        font-size: 3.5em;
+        top: 18%;
+    }
+    #kleinertext{
+        font-size: 2em;
+        top: 48%;
+        
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #AktuÜberschrift{
+        font-size: 10em;
+    }
+    .dropdown-content li a {
+        font-size: 1.2em;
+    }
+    nav li span{
+        font-size: 1.2em;
+    }
+    header p {
+    font-size: 2.5em;
+    }
+    #fettertext{
+        font-size: 3.5em;
+        top:22%
+    }
+    #kleinertext{
+        font-size: 2em;
+        top: 47%;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    #AktuÜberschrift{
+        font-size: 11em;
+    }
+    nav li span{
+        font-size: 1.7em;
+    }
+    header p {
+    font-size: 3em;
+    }
+    .dropdown-content li a {
+        font-size: 1.7em;
+    }
+    #fettertext{
+        font-size: 4em;
+        top:25%
+    }
+    #kleinertext{
+        font-size: 2.5em;
+        top: 50%;
+    }
 }
