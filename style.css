@@ -159,7 +159,7 @@ header img {
     text-align: center;
 }
  
-.aktuelles-container
+#aktuelles-container
 {
     display: flex;
     flex-wrap: wrap;
@@ -179,7 +179,43 @@ section a {
 #AktuÜberschrift{
     display: flex;
     margin: 0;
-    font-size: 15em;
+    font-size: 12em;
     justify-content: space-around;
     text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    #AktuÜberschrift{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    #AktuÜberschrift{
+        font-size: 4em;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #AktuÜberschrift{
+        font-size: 6em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #AktuÜberschrift{
+        font-size: 7em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #AktuÜberschrift{
+        font-size: 10em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #AktuÜberschrift{
+        font-size: 12em;
+    }
 }
