@@ -210,14 +210,38 @@ section a {
     margin-top: 1em;
 }
 
+.unterthemen{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#gesunde-ernaehrung,
+#regelmaessige-bewegung,
+#krankheitspraevention,
+#hygiene,
+#schlaf 
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10em;
+    align-items: center;
+    margin-left: 3em;
+    margin-right:3em;
+}
 #gesunde-ernaehrung p,
 #regelmaessige-bewegung p,
 #krankheitspraevention p,
 #hygiene p,
 #schlaf p
 {
-    margin-left: 5em;
     font-weight: bold;
+    max-width: 50%;
+}
+
+.unterthemen img{
+    width: 30em;
+    height:17.5em;
 }
 
 @media only screen and (max-width: 400px) {
