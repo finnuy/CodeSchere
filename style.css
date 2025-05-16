@@ -210,6 +210,16 @@ section a {
     margin-top: 1em;
 }
 
+#gesunde-ernaehrung p,
+#regelmaessige-bewegung p,
+#krankheitspraevention p,
+#hygiene p,
+#schlaf p
+{
+    margin-left: 5em;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 400px) {
     #AktuÜberschrift{
         font-size: 2em;
