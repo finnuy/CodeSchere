@@ -185,7 +185,11 @@ section a {
     text-align: center;
 }
 #displaytext{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    height: 100vh;
 }
 
 #fettertext{
@@ -195,8 +199,6 @@ section a {
     font-size: 3em;
     margin-right: 50%;
     margin-left: 5%;
-    position: absolute;
-    top:25%
 }
 
 #kleinertext{
@@ -205,8 +207,6 @@ section a {
     font-size: 2.2em;
     margin-right: 50%;
     margin-left:5%;
-    position: absolute;
-    top:50%;
     margin-top: 1em;
 }
 
@@ -225,11 +225,9 @@ section a {
     }
     #fettertext{
         font-size: 2em;
-        top: 23%;
     }
     #kleinertext{
         font-size: 1.1em;
-        top: 40%;
     }
 }
 
@@ -248,11 +246,9 @@ section a {
     }
     #fettertext{
         font-size: 2.2em;
-        top: 17%;
     }
     #kleinertext{
         font-size: 1.4em;
-        top: 34%;
     }
 }
 
@@ -271,11 +267,9 @@ section a {
     }
     #fettertext{
         font-size: 3em;
-        top: 18%;
     }
     #kleinertext{
         font-size: 1.5em;
-        top: 43%;
         
     }
 }
@@ -295,11 +289,9 @@ section a {
     }
     #fettertext{
         font-size: 3.5em;
-        top: 18%;
     }
     #kleinertext{
         font-size: 2em;
-        top: 48%;
         
     }
 }
@@ -319,11 +311,9 @@ section a {
     }
     #fettertext{
         font-size: 3.5em;
-        top:22%
     }
     #kleinertext{
         font-size: 2em;
-        top: 47%;
     }
 }
 
@@ -342,10 +332,8 @@ section a {
     }
     #fettertext{
         font-size: 4em;
-        top:25%
     }
     #kleinertext{
         font-size: 2.5em;
-        top: 50%;
     }
 }
