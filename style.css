@@ -180,14 +180,24 @@ section a {
 
 .aktuelles:hover {
     transform: scale(1.1);
+    background-color: rgba(171, 248, 165, 0.4);
 }
 
 #AktuÜberschrift{
+    background-color: rgba(76, 161, 70, 0.8);
+    border-radius: 40px;
     display: flex;
-    margin: 0;
+    margin: 0.25em;
     font-size: 12em;
     justify-content: space-around;
     text-align: center;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+#AktuÜberschrift:hover{
+    transform: scale(1.025);
+    background-color: rgba(171, 248, 165, 0.4);
 }
 
 .unterthemen{
