@@ -222,7 +222,7 @@ section a {
 {
     font-weight: bold;
     font-size: larger;
-    background-color: rgb(177, 236, 173);
+    background-color: rgba(177, 236, 173,0.8);
     border-radius: 25px;
     padding: 2em;
     transition: transform .2s;
@@ -233,7 +233,10 @@ section a {
 #krankheitspraevention p:hover,
 #hygiene p:hover,
 #schlaf p:hover {
-    transform: scale(1.1);
+    transform: scale(1.025);
+    background-color: rgba(177, 236, 173,0.4);
+    cursor:pointer;
+    
 }
 
 #gesunde-ernaehrung h3,
@@ -242,12 +245,13 @@ section a {
 #hygiene h3,
 #schlaf h3
 {
-    background-color: rgb(177, 236, 173);
+    background-color: rgba(177, 236, 173,0.8);
     margin: 1em;
     padding: 1em 2em;
     border-radius: 25px;
     font-size: 3em;
     transition: transform .2s;
+    text-align: center;
 }
 
 #gesunde-ernaehrung h3:hover,
@@ -255,20 +259,25 @@ section a {
 #krankheitspraevention h3:hover,
 #hygiene h3:hover,
 #schlaf h3:hover {
-    transform: scale(1.1);
+    transform: scale(1.025);
+    background-color: rgba(177, 236, 173,0.4);
+    cursor:pointer;
 }
 
 .unterthemen img{
     height: 30em;
     width: auto;
+    max-width: 100%;
     border-radius: 40px;
     margin: 1em;
     padding: 2em;
-    background-color: rgb(177, 236, 173);
+    background-color: rgba(177, 236, 173,0.8);
     transition: transform .2s;
 }
 .unterthemen img:hover {
-    transform: scale(1.1);
+    transform: scale(1.025);
+    background-color: rgba(177, 236, 173,0.4);
+    cursor:pointer;
 }
 
 @media only screen and (max-width: 400px) {
@@ -282,13 +291,14 @@ section a {
         font-size: 1em;
     }
     nav li span{
-        font-size: 1em;
+        font-size: 0.75em;
     }
-    #fettertext{
-        font-size: 2em;
-    }
-    #kleinertext{
-        font-size: 1.1em;
+     #gesunde-ernaehrung h3,
+    #regelmaessige-bewegung h3,
+    #krankheitspraevention h3,
+    #hygiene h3,
+    #schlaf h3{
+        font-size: 1.5em;
     }
 }
 
@@ -303,13 +313,36 @@ section a {
         font-size: 1em;
     }
     nav li span{
+        font-size: 0.75em;
+    }
+     #gesunde-ernaehrung h3,
+    #regelmaessige-bewegung h3,
+    #krankheitspraevention h3,
+    #hygiene h3,
+    #schlaf h3{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #AktuÜberschrift{
+        font-size: 4em;
+    }
+    header p {
+    font-size: 1.5em;
+    }
+    .dropdown-content li a {
         font-size: 1em;
     }
-    #fettertext{
-        font-size: 2.2em;
+    nav li span{
+        font-size: 0.75em;
     }
-    #kleinertext{
-        font-size: 1.4em;
+    #gesunde-ernaehrung h3,
+    #regelmaessige-bewegung h3,
+    #krankheitspraevention h3,
+    #hygiene h3,
+    #schlaf h3{
+        font-size: 2em;
     }
 }
 
@@ -318,20 +351,13 @@ section a {
         font-size: 6em;
     }
     .dropdown-content li a {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     nav li span{
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
     header p {
     font-size: 2em;
-    }
-    #fettertext{
-        font-size: 3em;
-    }
-    #kleinertext{
-        font-size: 1.5em;
-        
     }
 }
 
@@ -348,13 +374,6 @@ section a {
     nav li span{
         font-size: 1.2em;
     }
-    #fettertext{
-        font-size: 3.5em;
-    }
-    #kleinertext{
-        font-size: 2em;
-        
-    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -370,12 +389,6 @@ section a {
     header p {
     font-size: 2.5em;
     }
-    #fettertext{
-        font-size: 3.5em;
-    }
-    #kleinertext{
-        font-size: 2em;
-    }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -383,18 +396,12 @@ section a {
         font-size: 11em;
     }
     nav li span{
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
     header p {
     font-size: 3em;
     }
     .dropdown-content li a {
         font-size: 1.7em;
-    }
-    #fettertext{
-        font-size: 4em;
-    }
-    #kleinertext{
-        font-size: 2.5em;
     }
 }
