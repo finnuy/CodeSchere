@@ -211,7 +211,8 @@ section a {
 #regelmaessige-bewegung,
 #krankheitspraevention,
 #hygiene,
-#schlaf 
+#schlaf,
+#mham 
 {
     display: flex;
     flex-direction: row;
@@ -228,21 +229,23 @@ section a {
 #regelmaessige-bewegung p,
 #krankheitspraevention p,
 #hygiene p,
-#schlaf p
-{
+#schlaf p,
+#mham p {
     font-weight: bold;
     font-size: 1.3em;
     background-color: rgba(76, 161, 70, 0.8);
     border-radius: 25px;
     padding: 2em;
     transition: transform .2s;
+    margin: 1em;
 }
 
 #gesunde-ernaehrung p:hover,
 #regelmaessige-bewegung p:hover,
 #krankheitspraevention p:hover,
 #hygiene p:hover,
-#schlaf p:hover {
+#schlaf p:hover,
+#mham p:hover {
     transform: scale(1.025);
     background-color: rgba(171, 248, 165, 0.4);
     cursor:pointer;
@@ -253,8 +256,8 @@ section a {
 #regelmaessige-bewegung h3,
 #krankheitspraevention h3,
 #hygiene h3,
-#schlaf h3
-{
+#schlaf h3,
+#mham h3 {
     background-color: rgba(76, 161, 70, 0.8);
     margin: 1em;
     padding: 1em 2em;
@@ -268,7 +271,8 @@ section a {
 #regelmaessige-bewegung h3:hover,
 #krankheitspraevention h3:hover,
 #hygiene h3:hover,
-#schlaf h3:hover {
+#schlaf h3:hover,
+#mham h3:hover {
     transform: scale(1.025);
     background-color: rgba(171, 248, 165, 0.4);
     cursor:pointer;
@@ -290,6 +294,36 @@ section a {
     cursor:pointer;
 }
 
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(76, 161, 70, 0.8);
+    padding: 1em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#contact h3,
+#socialmedia h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+#contact ul,
+#socialmedia ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#contact ul li a,
+#socialmedia ul li a{
+    margin: 0 1em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
 @media only screen and (max-width: 400px) {
     #AktuÜberschrift{
         font-size: 2em;
@@ -303,19 +337,20 @@ section a {
     nav li span{
         font-size: 0.75em;
     }
-     #gesunde-ernaehrung h3,
+    #gesunde-ernaehrung h3,
     #regelmaessige-bewegung h3,
     #krankheitspraevention h3,
     #hygiene h3,
-    #schlaf h3{
+    #schlaf h3,
+    #mham h3{
         font-size: 1.5em;
     }
     #gesunde-ernaehrung p,
     #regelmaessige-bewegung p,
     #krankheitspraevention p,
     #hygiene p,
-    #schlaf p
-    {
+    #schlaf p,
+    #mham p{
         font-size: 1.2em;
     }
 }
@@ -337,17 +372,19 @@ section a {
     #regelmaessige-bewegung h3,
     #krankheitspraevention h3,
     #hygiene h3,
-    #schlaf h3{
+    #schlaf h3,
+    #mham h3{
         font-size: 2em;
     }
     #gesunde-ernaehrung p,
     #regelmaessige-bewegung p,
     #krankheitspraevention p,
     #hygiene p,
-    #schlaf p
-    {
+    #schlaf p,
+    #mham p{
         font-size: 1.4em;
     }
+    
 }
 
 @media only screen and (min-width: 500px) {
@@ -367,16 +404,17 @@ section a {
     #regelmaessige-bewegung h3,
     #krankheitspraevention h3,
     #hygiene h3,
-    #schlaf h3{
+    #schlaf h3,
+    #mham h3{
         font-size: 2em;
     }
     #gesunde-ernaehrung p,
     #regelmaessige-bewegung p,
     #krankheitspraevention p,
     #hygiene p,
-    #schlaf p
-    {
-        font-size: 1.5em;
+    #schlaf p,
+    #mham p{
+        font-size: 1.4em;
     }
 }
 
@@ -397,14 +435,16 @@ section a {
     #regelmaessige-bewegung h3,
     #krankheitspraevention h3,
     #hygiene h3,
-    #schlaf h3{
+    #schlaf h3,
+    #mham h3{
         font-size: 3em;
     }
     #gesunde-ernaehrung p,
     #regelmaessige-bewegung p,
     #krankheitspraevention p,
     #hygiene p,
-    #schlaf p
+    #schlaf p,
+    #mham p
     {
         font-size: 1.65em;
     }
@@ -427,15 +467,16 @@ section a {
     #regelmaessige-bewegung h3,
     #krankheitspraevention h3,
     #hygiene h3,
-    #schlaf h3{
+    #schlaf h3,
+    #mham h3{
         font-size: 3em;
     }
     #gesunde-ernaehrung p,
     #regelmaessige-bewegung p,
     #krankheitspraevention p,
     #hygiene p,
-    #schlaf p
-    {
+    #schlaf p,
+    #mham p{
         font-size: 1.75em;
     }
 }
@@ -457,16 +498,17 @@ section a {
     #regelmaessige-bewegung h3,
     #krankheitspraevention h3,
     #hygiene h3,
-    #schlaf h3{
+    #schlaf h3,
+    #mham h3{
         font-size: 4em;
     }
     #gesunde-ernaehrung p,
     #regelmaessige-bewegung p,
     #krankheitspraevention p,
     #hygiene p,
-    #schlaf p
-    {
-        font-size: 1.8em;
+    #schlaf p,
+    #mham p{
+        font-size: 2em;
     }
 }
 
@@ -487,15 +529,16 @@ section a {
     #regelmaessige-bewegung h3,
     #krankheitspraevention h3,
     #hygiene h3,
-    #schlaf h3{
+    #schlaf h3,
+    #mham h3{
         font-size: 4em;
     }
     #gesunde-ernaehrung p,
     #regelmaessige-bewegung p,
     #krankheitspraevention p,
     #hygiene p,
-    #schlaf p
-    {
+    #schlaf p,
+    #mham p{
         font-size: 2em;
     }
 }
