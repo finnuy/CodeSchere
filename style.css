@@ -167,6 +167,7 @@ header img {
  
 #aktuelles-container
 {
+    background-image: url(Bilder/hintergrund4.jpeg);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -183,7 +184,8 @@ section a {
     background-color: rgba(171, 248, 165, 0.4);
 }
 
-#AktuÜberschrift{
+#AktuÜberschrift,
+#whatisit h2{
     background-color: rgba(76, 161, 70, 0.8);
     border-radius: 40px;
     display: flex;
@@ -195,12 +197,14 @@ section a {
     transition: transform .2s;
 }
 
-#AktuÜberschrift:hover{
+#AktuÜberschrift:hover,
+#whatisit h2:hover{
     transform: scale(1.025);
     background-color: rgba(171, 248, 165, 0.4);
 }
 
-.unterthemen{
+.unterthemen,
+#whatisit{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -212,8 +216,10 @@ section a {
 #krankheitspraevention,
 #hygiene,
 #schlaf,
-#mham 
-{
+#mham,
+#ursprung,
+#kernfokus,
+#globale{
     display: flex;
     flex-direction: row;
     margin-bottom: 10em;
@@ -230,7 +236,10 @@ section a {
 #krankheitspraevention p,
 #hygiene p,
 #schlaf p,
-#mham p {
+#mham p,
+#ursprung p,
+#kernfokus p,
+#globale p{
     font-weight: bold;
     font-size: 1.3em;
     background-color: rgba(76, 161, 70, 0.8);
@@ -245,11 +254,13 @@ section a {
 #krankheitspraevention p:hover,
 #hygiene p:hover,
 #schlaf p:hover,
-#mham p:hover {
+#mham p:hover,
+#ursprung p:hover,
+#kernfokus p:hover,
+#globale p:hover{
     transform: scale(1.025);
     background-color: rgba(171, 248, 165, 0.4);
     cursor:pointer;
-    
 }
 
 #gesunde-ernaehrung h3,
@@ -257,7 +268,10 @@ section a {
 #krankheitspraevention h3,
 #hygiene h3,
 #schlaf h3,
-#mham h3 {
+#mham h3,
+#ursprung h3,
+#kernfokus h3,
+#globale h3{
     background-color: rgba(76, 161, 70, 0.8);
     margin: 1em;
     padding: 1em 2em;
@@ -272,10 +286,29 @@ section a {
 #krankheitspraevention h3:hover,
 #hygiene h3:hover,
 #schlaf h3:hover,
-#mham h3:hover {
+#mham h3:hover,
+#ursprung h3:hover,
+#kernfokus h3:hover,
+#globale h3:hover{
     transform: scale(1.025);
     background-color: rgba(171, 248, 165, 0.4);
     cursor:pointer;
+}
+
+#ursprung h3,
+#kernfokus h3,
+#globale h3{
+    margin: 0.1em;
+}
+
+#ursprung p,
+#kernfokus p,
+#globale p{
+    margin: 0.1em;
+}
+
+#whatisit{
+    background-image: url(Bilder/hintergrund4.jpeg);
 }
 
 .unterthemen img{
@@ -325,7 +358,8 @@ section a {
 }
 
 @media only screen and (max-width: 400px) {
-    #AktuÜberschrift{
+    #AktuÜberschrift,
+    #whatisit h2{
         font-size: 2em;
     }
     header p {
@@ -342,7 +376,10 @@ section a {
     #krankheitspraevention h3,
     #hygiene h3,
     #schlaf h3,
-    #mham h3{
+    #mham h3,
+    #ursprung h3,
+    #kernfokus h3,
+    #globale h3{
         font-size: 1.5em;
     }
     #gesunde-ernaehrung p,
@@ -350,13 +387,17 @@ section a {
     #krankheitspraevention p,
     #hygiene p,
     #schlaf p,
-    #mham p{
+    #mham p,
+    #ursprung p,
+    #kernfokus p,
+    #globale p{
         font-size: 1.2em;
     }
 }
 
 @media only screen and (min-width: 400px) {
-    #AktuÜberschrift{
+    #AktuÜberschrift,
+    #whatisit h2{
         font-size: 4em;
     }
     header p {
@@ -373,7 +414,10 @@ section a {
     #krankheitspraevention h3,
     #hygiene h3,
     #schlaf h3,
-    #mham h3{
+    #mham h3,
+    #ursprung h3,
+    #kernfokus h3,
+    #globale h3{
         font-size: 2em;
     }
     #gesunde-ernaehrung p,
@@ -381,14 +425,18 @@ section a {
     #krankheitspraevention p,
     #hygiene p,
     #schlaf p,
-    #mham p{
+    #mham p,
+    #ursprung p,
+    #kernfokus p,
+    #globale p{
         font-size: 1.4em;
     }
     
 }
 
 @media only screen and (min-width: 500px) {
-    #AktuÜberschrift{
+    #AktuÜberschrift,
+    #whatisit h2{
         font-size: 4em;
     }
     header p {
@@ -405,7 +453,10 @@ section a {
     #krankheitspraevention h3,
     #hygiene h3,
     #schlaf h3,
-    #mham h3{
+    #mham h3,
+    #ursprung h3,
+    #kernfokus h3,
+    #globale h3{
         font-size: 2em;
     }
     #gesunde-ernaehrung p,
@@ -413,13 +464,17 @@ section a {
     #krankheitspraevention p,
     #hygiene p,
     #schlaf p,
-    #mham p{
+    #mham p,
+    #ursprung p,
+    #kernfokus p,
+    #globale p{
         font-size: 1.4em;
     }
 }
 
 @media only screen and (min-width: 600px) {
-    #AktuÜberschrift{
+    #AktuÜberschrift,
+    #whatisit h2{
         font-size: 6em;
     }
     .dropdown-content li a {
@@ -436,7 +491,10 @@ section a {
     #krankheitspraevention h3,
     #hygiene h3,
     #schlaf h3,
-    #mham h3{
+    #mham h3,
+    #ursprung h3,
+    #kernfokus h3,
+    #globale h3{
         font-size: 3em;
     }
     #gesunde-ernaehrung p,
@@ -444,14 +502,17 @@ section a {
     #krankheitspraevention p,
     #hygiene p,
     #schlaf p,
-    #mham p
-    {
+    #mham p,
+    #ursprung p,
+    #kernfokus p,
+    #globale p{
         font-size: 1.65em;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    #AktuÜberschrift{
+    #AktuÜberschrift,
+    #whatisit h2{
         font-size: 7em;
     }
     header p {
@@ -468,7 +529,10 @@ section a {
     #krankheitspraevention h3,
     #hygiene h3,
     #schlaf h3,
-    #mham h3{
+    #mham h3,
+    #ursprung h3,
+    #kernfokus h3,
+    #globale h3{
         font-size: 3em;
     }
     #gesunde-ernaehrung p,
@@ -476,13 +540,17 @@ section a {
     #krankheitspraevention p,
     #hygiene p,
     #schlaf p,
-    #mham p{
+    #mham p,
+    #ursprung p,
+    #kernfokus p,
+    #globale p{
         font-size: 1.75em;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    #AktuÜberschrift{
+    #AktuÜberschrift,
+    #whatisit h2{
         font-size: 10em;
     }
     .dropdown-content li a {
@@ -499,7 +567,10 @@ section a {
     #krankheitspraevention h3,
     #hygiene h3,
     #schlaf h3,
-    #mham h3{
+    #mham h3,
+    #ursprung h3,
+    #kernfokus h3,
+    #globale h3{
         font-size: 4em;
     }
     #gesunde-ernaehrung p,
@@ -507,13 +578,17 @@ section a {
     #krankheitspraevention p,
     #hygiene p,
     #schlaf p,
-    #mham p{
+    #mham p,
+    #ursprung p,
+    #kernfokus p,
+    #globale p{
         font-size: 2em;
     }
 }
 
 @media only screen and (min-width: 1300px) {
-    #AktuÜberschrift{
+    #AktuÜberschrift,
+    #whatisit h2{
         font-size: 11em;
     }
     nav li span{
@@ -530,7 +605,10 @@ section a {
     #krankheitspraevention h3,
     #hygiene h3,
     #schlaf h3,
-    #mham h3{
+    #mham h3,
+    #ursprung h3,
+    #kernfokus h3,
+    #globale h3{
         font-size: 4em;
     }
     #gesunde-ernaehrung p,
@@ -538,7 +616,10 @@ section a {
     #krankheitspraevention p,
     #hygiene p,
     #schlaf p,
-    #mham p{
+    #mham p,
+    #ursprung p,
+    #kernfokus p,
+    #globale p{
         font-size: 2em;
     }
 }
