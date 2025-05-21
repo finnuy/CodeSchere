@@ -214,15 +214,11 @@ section a {
     transition: transform .2s;
 }
 
-#gesunde-ernaehrung,
-#regelmaessige-bewegung,
-#krankheitspraevention,
-#hygiene,
-#schlaf,
 #mham,
 #ursprung,
 #kernfokus,
-#globale{
+#globale,
+.inhalt{
     display: flex;
     flex-direction: row;
     margin-bottom: 10em;
@@ -234,15 +230,12 @@ section a {
     justify-content: center;
     transition: transform .2s;
 }
-#gesunde-ernaehrung p,
-#regelmaessige-bewegung p,
-#krankheitspraevention p,
-#hygiene p,
-#schlaf p,
+
 #mham p,
 #ursprung p,
 #kernfokus p,
-#globale p{
+#globale p,
+.inhalt p{
     font-weight: bold;
     font-size: 1.3em;
     background-color: rgba(76, 161, 70, 0.8);
@@ -252,29 +245,21 @@ section a {
     margin: 1em;
 }
 
-#gesunde-ernaehrung p:hover,
-#regelmaessige-bewegung p:hover,
-#krankheitspraevention p:hover,
-#hygiene p:hover,
-#schlaf p:hover,
 #mham p:hover,
 #ursprung p:hover,
 #kernfokus p:hover,
-#globale p:hover{
+#globale p:hover,
+.inhalt p:hover{
     transform: scale(1.025);
     background-color: rgba(171, 248, 165, 0.4);
     cursor:pointer;
 }
 
-#gesunde-ernaehrung h3,
-#regelmaessige-bewegung h3,
-#krankheitspraevention h3,
-#hygiene h3,
-#schlaf h3,
 #mham h3,
 #ursprung h3,
 #kernfokus h3,
-#globale h3{
+#globale h3,
+.inhalt h3{
     background-color: rgba(76, 161, 70, 0.8);
     margin: 1em;
     padding: 1em 2em;
@@ -284,15 +269,11 @@ section a {
     text-align: center;
 }
 
-#gesunde-ernaehrung h3:hover,
-#regelmaessige-bewegung h3:hover,
-#krankheitspraevention h3:hover,
-#hygiene h3:hover,
-#schlaf h3:hover,
 #mham h3:hover,
 #ursprung h3:hover,
 #kernfokus h3:hover,
-#globale h3:hover{
+#globale h3:hover,
+.inhalt h3:hover{
     transform: scale(1.025);
     background-color: rgba(171, 248, 165, 0.4);
     cursor:pointer;
@@ -370,26 +351,18 @@ section a {
     nav li span{
         font-size: 0.75em;
     }
-    #gesunde-ernaehrung h3,
-    #regelmaessige-bewegung h3,
-    #krankheitspraevention h3,
-    #hygiene h3,
-    #schlaf h3,
     #mham h3,
     #ursprung h3,
     #kernfokus h3,
-    #globale h3{
+    #globale h3,
+    .inhalt h3{
         font-size: 1.5em;
     }
-    #gesunde-ernaehrung p,
-    #regelmaessige-bewegung p,
-    #krankheitspraevention p,
-    #hygiene p,
-    #schlaf p,
     #mham p,
     #ursprung p,
     #kernfokus p,
-    #globale p{
+    #globale p,
+    .inhalt p{
         font-size: 1.2em;
     }
 }
@@ -408,26 +381,18 @@ section a {
     nav li span{
         font-size: 0.75em;
     }
-    #gesunde-ernaehrung h3,
-    #regelmaessige-bewegung h3,
-    #krankheitspraevention h3,
-    #hygiene h3,
-    #schlaf h3,
     #mham h3,
     #ursprung h3,
     #kernfokus h3,
-    #globale h3{
+    #globale h3,
+    .inhalt h3{
         font-size: 2em;
     }
-    #gesunde-ernaehrung p,
-    #regelmaessige-bewegung p,
-    #krankheitspraevention p,
-    #hygiene p,
-    #schlaf p,
     #mham p,
     #ursprung p,
     #kernfokus p,
-    #globale p{
+    #globale p,
+    .inhalt p{
         font-size: 1.4em;
     }
     
@@ -447,26 +412,18 @@ section a {
     nav li span{
         font-size: 0.75em;
     }
-    #gesunde-ernaehrung h3,
-    #regelmaessige-bewegung h3,
-    #krankheitspraevention h3,
-    #hygiene h3,
-    #schlaf h3,
     #mham h3,
     #ursprung h3,
     #kernfokus h3,
-    #globale h3{
+    #globale h3,
+    .inhalt h3{
         font-size: 2em;
     }
-    #gesunde-ernaehrung p,
-    #regelmaessige-bewegung p,
-    #krankheitspraevention p,
-    #hygiene p,
-    #schlaf p,
     #mham p,
     #ursprung p,
     #kernfokus p,
-    #globale p{
+    #globale p,
+    .inhalt p{
         font-size: 1.4em;
     }
 }
@@ -485,26 +442,18 @@ section a {
     header p {
     font-size: 2em;
     }
-    #gesunde-ernaehrung h3,
-    #regelmaessige-bewegung h3,
-    #krankheitspraevention h3,
-    #hygiene h3,
-    #schlaf h3,
     #mham h3,
     #ursprung h3,
     #kernfokus h3,
-    #globale h3{
+    #globale h3,
+    .inhalt h3{
         font-size: 3em;
     }
-    #gesunde-ernaehrung p,
-    #regelmaessige-bewegung p,
-    #krankheitspraevention p,
-    #hygiene p,
-    #schlaf p,
     #mham p,
     #ursprung p,
     #kernfokus p,
-    #globale p{
+    #globale p,
+    .inhalt p{
         font-size: 1.65em;
     }
 }
@@ -523,26 +472,18 @@ section a {
     nav li span{
         font-size: 1.2em;
     }
-    #gesunde-ernaehrung h3,
-    #regelmaessige-bewegung h3,
-    #krankheitspraevention h3,
-    #hygiene h3,
-    #schlaf h3,
     #mham h3,
     #ursprung h3,
     #kernfokus h3,
-    #globale h3{
+    #globale h3,
+    .inhalt h3{
         font-size: 3em;
     }
-    #gesunde-ernaehrung p,
-    #regelmaessige-bewegung p,
-    #krankheitspraevention p,
-    #hygiene p,
-    #schlaf p,
     #mham p,
     #ursprung p,
     #kernfokus p,
-    #globale p{
+    #globale p,
+    .inhalt p{
         font-size: 1.75em;
     }
 }
@@ -561,26 +502,18 @@ section a {
     header p {
     font-size: 2.5em;
     }
-    #gesunde-ernaehrung h3,
-    #regelmaessige-bewegung h3,
-    #krankheitspraevention h3,
-    #hygiene h3,
-    #schlaf h3,
     #mham h3,
     #ursprung h3,
     #kernfokus h3,
-    #globale h3{
+    #globale h3,
+    .inhalt h3{
         font-size: 4em;
     }
-    #gesunde-ernaehrung p,
-    #regelmaessige-bewegung p,
-    #krankheitspraevention p,
-    #hygiene p,
-    #schlaf p,
     #mham p,
     #ursprung p,
     #kernfokus p,
-    #globale p{
+    #globale p,
+    .inhalt p{
         font-size: 2em;
     }
 }
@@ -599,26 +532,18 @@ section a {
     .dropdown-content li a {
         font-size: 1.7em;
     }
-    #gesunde-ernaehrung h3,
-    #regelmaessige-bewegung h3,
-    #krankheitspraevention h3,
-    #hygiene h3,
-    #schlaf h3,
     #mham h3,
     #ursprung h3,
     #kernfokus h3,
-    #globale h3{
+    #globale h3,
+    .inhalt h3{
         font-size: 4em;
     }
-    #gesunde-ernaehrung p,
-    #regelmaessige-bewegung p,
-    #krankheitspraevention p,
-    #hygiene p,
-    #schlaf p,
     #mham p,
     #ursprung p,
     #kernfokus p,
-    #globale p{
+    #globale p,
+    .inhalt p{
         font-size: 2em;
     }
 }
