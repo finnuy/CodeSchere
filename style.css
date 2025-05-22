@@ -301,10 +301,32 @@ section a {
     background-color: rgba(76, 161, 70, 0.8);
     transition: transform .2s;
 }
+
 .unterthemen img:hover {
     transform: scale(1.025);
     background-color: rgba(171, 248, 165, 0.4);
     cursor:pointer;
+}
+
+#globalactionplan{
+    position:relative;
+}
+
+#globalactionplan a{
+    margin:auto;
+    position:absolute;
+    bottom:50px;
+    z-index: 1;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    font-size: 3em;
+}
+
+#globalactionplan img{
+    width: 100%;
+    height:100%;
 }
 
 #footer {
