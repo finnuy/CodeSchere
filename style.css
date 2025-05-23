@@ -320,7 +320,7 @@ section a {
     font-weight: bold;
     text-decoration: underline;
     color: white;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 #globalactionplan a:hover{
@@ -515,7 +515,7 @@ section a {
     margin-left: 75px;
     position:absolute;
     bottom:150px;
-    font-size: 3em;
+    font-size: 2em;
 }
 }
 
@@ -551,7 +551,7 @@ section a {
     margin-left: 50px;
     position:absolute;
     bottom:200px;
-    font-size: 4em;
+    font-size: 3em;
 }
 }
 
@@ -587,6 +587,6 @@ section a {
     margin-left: 75px;
     position:absolute;
     bottom:200px;
-    font-size: 5.5em;
+    font-size: 4.5em;
 }
 }
