@@ -339,6 +339,7 @@ section a {
     padding: 1em;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    position: relative;
 }
 
 #contact h3,
@@ -360,6 +361,14 @@ section a {
     margin: 0 1em;
     font-weight: bold;
     color: rgb(0, 0, 0);
+}
+
+#arrow{
+    margin: 10px;
+    height: 0.1em;
+    width: auto;
+    position: absolute;
+    left: 0;
 }
 
 @media only screen and (max-width: 400px) {
