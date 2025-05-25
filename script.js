@@ -2,7 +2,7 @@ const dropdownTriggers = document.querySelectorAll('.dropdown > span');
 const dropdownContents = document.querySelectorAll('.dropdown-content');
 
 dropdownTriggers.forEach((trigger, index) => {
-    trigger.addEventListener('click', function(event) {
+    trigger.addEventListener('click', function (event) {
         dropdownContents.forEach((content, i) => {
             if (i !== index && content.classList.contains('show')) {
                 content.classList.remove('show');
@@ -13,7 +13,7 @@ dropdownTriggers.forEach((trigger, index) => {
     });
 });
 
-window.addEventListener('click', function(event) {
+window.addEventListener('click', function (event) {
     if (!event.target.matches('.dropdown > span') && !event.target.matches('.dropdown-content *')) {
         dropdownContents.forEach(content => {
             if (content.classList.contains('show')) {
